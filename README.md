@@ -76,14 +76,6 @@ npx @prathamesh-pichkate1208
 ```
 If you want the command to be `npx @prathameshpichkate/cli-based-resume`, align the `bin` key to that name in `package.json` before publishing.
 
-## Recording the demo video (Loom, 2–5 minutes)
-- Show face + screen; speak in English.
-- Flow suggestion:
-  1) Introduce yourself and the goal (CLI resume via npx).
-  2) Show `package.json` (name, bin) and `bin/index.js` → `src/resume.js` flow.
-  3) Run the npx command and scroll the output.
-  4) Mention how to update and republish.
-
 ## Troubleshooting
 - Node version: use Node 18+.
 - Permission issues on Unix: `chmod +x bin/index.js`.
